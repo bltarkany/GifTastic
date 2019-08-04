@@ -45,9 +45,9 @@ $(document).ready(function () {
         gifNames.push(query);
         console.log(gifNames);
         // add your buttons
-        buttonRender();   
+        buttonRender();
         // empty search input for new query
-        $("#search-input").val("");      
+        $("#search-input").val("");
     })
 
     $(document.body).on("click", ".gifSearch", function () {
@@ -67,19 +67,38 @@ $(document).ready(function () {
                 var gifDiv = $("<div>");
                 var gifImage = $("<img>");
                 var rating = $("<p>");
-
+                var still = response.data[i].images.fixed_height_still.url
+                var animate = response.data[i].images.fixed_height_still.url
                 // add src url to variable
-                gifImage.attr("src", response.data[i].images.fixed_height_small_still.url);
+                gifImage.addClass("gifs");
+                gifImage.attr("src", still);
+                gifImage.attr('data-still', still);
+                gifImage.attr('data-animate', animate);
+                gifImage.attr('data-state', 'still');
                 rating.text("Rating: " + response.data[i].rating);
-                // gifDiv.append(rating);
-                // gifDiv.prepend(gifImage);
+                gifDiv.append(rating);
+                gifDiv.prepend(gifImage);
                 // push gifDiv to the DOM
-                $("#gifs-display").append(gifImage);
-                $("#gifs-display").append(rating);
+                $("#gifs-display").prepend(gifDiv);
+
             }
-            // gif();
+           
+
         })
+
     })
 
+    $(document.body).on("click", ".gifs", function () {
+        var state = $(this).attr('data-state');
+        console.log(state);
+
+        if (state === "still") {
+            $(this).attr("src", $(this).data('animate'));
+            $(this).attr("data-state", "animate");
+        } else {
+            $(this).attr("src", $(this).data('still'));
+            $(this).attr("data-state", "still");
+        }
+    })
 
 });
