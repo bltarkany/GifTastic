@@ -1,0 +1,10 @@
+body {
+    font-family: 'Long Cang', cursive;
+    font-size: 24px;
+}
+#jumbo {
+    background-image: url("https://media.giphy.com/media/136aKNrswwYlW0/giphy.gif");
+    background-position: 50%;
+    background-repeat: repeat-x;
+    background-color: #b5d2cd;
+}

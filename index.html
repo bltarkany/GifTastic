@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Movie Giftastic</title>
+    <!-- reset -->
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Long+Cang&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="jumbotron" id="jumbo">
+                    <h1 class="display-4">Let's Have Some Giphy Fun!</h1>
+                    <p class="lead">This page demostrates the awesome things you can do with the use of and API, a fun
+                        search, and a little
+                        imagination. Enjoy!</p>
+                    <hr class="my-4">
+                    <p>Today's theme is Movies! Select a movie or actor to search for and wait for the magic to happen.
+                        There are so many options. Be creative and have fun!</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="buttons"></div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-3">
+                <form>
+                    <div class="form-group">
+                        <label for="searchInput">Add a Movie or an Actor</label>
+                        <input type="search" class="form-control" id="search-input"
+                            placeholder="Let's see what we can find">
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="search-button">Submit</button>
+                </form>
+            </div>
+            <div class="col-sm-9" id="gifs-display">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- ajax -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- javascript -->
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>
