@@ -67,7 +67,7 @@ $(document).ready(function () {
                 var gifDiv = $("<div class='float-sm-left m-2'>");
                 var gifImage = $("<img class='gifs'>");
                 var title = $("<p>" + response.data[i].title + "<p>");
-                var rating = $("<p>" + "Rating: " + response.data[i].rating + "<p>");
+                var rating = $("<p>" + "Rating: " + response.data[i].rating + "</p>");
                 var still = response.data[i].images.fixed_height_still.url
                 var animate = response.data[i].images.fixed_height.url
                 // add src url to variable                
