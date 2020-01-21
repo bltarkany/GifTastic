@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/bltarkany/GifTastic/issues"
   },
-  "homepage": "https://github.com/bltarkany/GifTastic#readme"
+  "homepage": "https://github.com/bltarkany/GifTastic#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
 }
