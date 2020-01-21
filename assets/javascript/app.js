@@ -1,3 +1,5 @@
+// require dotenv
+
 // global variables
 var buttons;
 var gifNames = [];
