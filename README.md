@@ -1,6 +1,7 @@
 # GifTastic
 
-The following app uses an API and Ajax in order to import gifs for display and manipulation.
+The following app uses an API and Ajax in order to import gifs for display and manipulation. It also uses Bootstrap for its styling. And 
+JavaScript to manipulate the DOM with the incoming information.
 
 ## Overview
 * Use GIPHY API to make a dynamic web page that populates with gifs of your choice. To finish the task, you must call the GIPHY API and use Javascript and jQuery to change the HTML of your site.
