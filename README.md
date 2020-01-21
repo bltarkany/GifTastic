@@ -22,7 +22,7 @@ The following app uses an API and Ajax in order to import gifs for display and m
 [Demo App](https://bltarkany.github.io/GifTastic/)
 
 
-![Giphy app]()
+![Giphy app](https://media.giphy.com/media/UPXWLOK6URbmWPHacO/giphy.gif)
 
 ### Before You Begin
 
