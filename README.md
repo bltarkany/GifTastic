@@ -1,5 +1,7 @@
 # GifTastic
 
+The following app uses an API and Ajax in order to import gifs for display and manipulation.
+
 ## Overview
 * Use GIPHY API to make a dynamic web page that populates with gifs of your choice. To finish the task, you must call the GIPHY API and use Javascript and jQuery to change the HTML of your site.
 
@@ -16,6 +18,11 @@
     * gif titles
 
 - - - 
+
+[Demo App](https://bltarkany.github.io/GifTastic/)
+
+
+![Giphy app]()
 
 ### Before You Begin
 
