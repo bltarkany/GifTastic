@@ -37,7 +37,7 @@ function buttonRender() {
 $(document).ready(function () {
 
     $("#search-button").on("click", function (event) {
-        // prevents defualt function of the submit button
+        // prevents default function of the submit button
         event.preventDefault();
         // adds the search input into valid form for the URL
         query = $("#search-input").val().trim();
