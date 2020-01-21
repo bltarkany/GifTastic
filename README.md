@@ -11,10 +11,10 @@ The following app uses an API and Ajax in order to import gifs for display and m
 
 * Dynamically updating the url from a search option.
 
-* Adding multiple items to the DOM from the API seacrh result data through the use of jQuery/Javascript, including:
+* Adding multiple items to the DOM from the API search result data through the use of jQuery/Javascript, including:
     * buttons with corresponding names 
     * themed gifs
-    * gif's ratings
+    * gifs' ratings
     * gif titles
 
 - - - 
