@@ -1,6 +1,0 @@
-# npm packages
-node_modules
-# styling
-.DS_Store
-# giphy api key
-.env
